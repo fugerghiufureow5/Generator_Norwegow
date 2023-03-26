@@ -121,9 +121,9 @@ function losowanko() {
 	}
     if (los2)
 	{
-        if (b1.innerHTML == 3) {
+        if (b1.innerHTML = w1[3]) {
             if (Math.floor(getRandomArbitrary(0, 10)) == 1) {
-                b2.innerHTML = "wiedzmin 3";
+                b2.innerHTML = w2[2];
             }
             else {
                 b2.innerHTML = w2[Math.floor(getRandomArbitrary(0, w2.length))];
@@ -162,78 +162,78 @@ function losowanko() {
     }
     else {
         progress.innerHTML = "generowanie zakonczone, jeszcze raz?";
-        if (b2.innerHTML == w1[7] && b3.innerHTML == w2[21]) {
+        if (b2.innerHTML == w2[7] && b3.innerHTML == w3[21]) {
             a4.src = "sounds/tmsll.mp3"
             a4.play();
 
             progress.innerHTML = "specjal napędził: Todd Howard <br />oryginał: <a href='https://www.youtube.com/watch?v=yvGXCisAaR4'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == w1[25] && b3.innerHTML == w2[35]) {
+        else if (b2.innerHTML == w2[25] && b3.innerHTML == w3[35]) {
             a4.src = "sounds/roltest.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klejnot Nilu & Testoviron <br />oryginał: <a href='https://www.youtube.com/watch?v=4kbpssHwqYc'>Link do YT [+18]</a><br />losowanko zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b1.innerHTML == 5 && b2.innerHTML == w1[0] && b3.innerHTML == w2[0]) {
+        else if (b1.innerHTML == w1[5] && b2.innerHTML == w2[0] && b3.innerHTML == w3[0]) {
             a4.src = "sounds/cytryny.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=H6qsJcALHkM'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == w1[36]) {
+        else if (b2.innerHTML == w2[36]) {
             ryjceDiv.innerHTML = "temacik dla: <img height='100px' class='shadowed' src='img/szef.png' />";
             a4.src = "sounds/tonasiebie.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=H6qsJcALHkM'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == w1[1]) {
+        else if (b2.innerHTML == w2[1]) {
             ryjceDiv.innerHTML = "temacik dla: <img height='100px' class='shadowed' src='img/jordan.png' />";
             a4.src = "sounds/chinskie.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=H6qsJcALHkM'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == "wiedzmin 3") {
+        else if (b2.innerHTML == w2[30]) {
             b3.innerHTML = "najlepszy"
             a4.src = "sounds/3w3.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=H6qsJcALHkM'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == w1[40] && b3.innerHTML == w2[68]) {
+        else if (b2.innerHTML == w2[40] && b3.innerHTML == w3[68]) {
             a4.src = "sounds/to.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Husson Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=sS3xkUyqyUQ'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-        else if (b2.innerHTML == w1[42] && b3.innerHTML == w2[100]) {
+        else if (b2.innerHTML == w2[42] && b3.innerHTML == w3[100]) {
             ryjceDiv.innerHTML = "temacik dla: <img height='100px' class='shadowed' src='img/kacper.png />";
             a4.src = "sounds/kruci.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=sS3xkUyqyUQ'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-		else if (b2.innerHTML == w1[59] && b3.innerHTML == w2[104]) {
+		else if (b2.innerHTML == w2[59] && b3.innerHTML == w3[104]) {
             a4.src = "sounds/jg.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=lwJMwKgejng'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-		else if (b2.innerHTML == w1[58] && b3.innerHTML == w2[105]) {
+		else if (b2.innerHTML == w2[58] && b3.innerHTML == w3[105]) {
             a4.src = "sounds/natsp.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=lwJMwKgejng'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-		else if (b3.innerHTML == w2[112]) {
+		else if (b3.innerHTML == w3[112]) {
             a4.src = "sounds/cwiercz.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Klo Cuch <br />oryginał: <a href='https://www.youtube.com/watch?v=rxlqV0f4us0'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
             specjalne += 1;
         }
-		else if (b3.innerHTML == w2[92]) {
+		else if (b3.innerHTML == w3[92]) {
             a4.src = "sounds/gin.mp3"
             a4.play();
             progress.innerHTML = "specjal napędził: Kistru ft Kaktus & Gothic <br />oryginał: <a href='https://www.youtube.com/watch?v=y_ifjEYEMuY'>Link do YT</a><br />generowanie zakonczone, jeszcze raz?";
