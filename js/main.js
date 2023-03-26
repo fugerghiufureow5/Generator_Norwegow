@@ -8,6 +8,7 @@ $.ajaxSetup({
 $.getJSON("database.json", function(json) {
     w1 = json.w1;
     w2 = json.w2;
+    w3 = json.w3;
 });
 var lottSpeed = 50;
 var lottTime = 600;
