@@ -1,6 +1,9 @@
+﻿function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+}
+
 var w1 = [];
 var w2 = [];
-var w3 = [];
 var ryjce = ["szef", "kacper", "hed", "arasz", "jordan", "fanggotten", "michal", "panmateusz"];
 $.ajaxSetup({
     async: false
@@ -8,7 +11,6 @@ $.ajaxSetup({
 $.getJSON("database.json", function(json) {
     w1 = json.w1;
     w2 = json.w2;
-    w3 = json.w3;
 });
 var lottSpeed = 50;
 var lottTime = 600;
