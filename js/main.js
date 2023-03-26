@@ -113,8 +113,9 @@ function losowanko() {
 
     if (los1)
 	{
-        b1.innerHTML = Math.floor(getRandomArbitrary(2, 11));
-		p1.style.width = (time/80)*100 + "%";
+        b1.innerHTML = w1[Math.floor(getRandomArbitrary(0, w1.length))];
+        }
+		p1.style.width = ((time-80)/20)*100 + "%";
 	}
     if (los2)
 	{
@@ -123,17 +124,17 @@ function losowanko() {
                 b2.innerHTML = "wiedzmin 3";
             }
             else {
-                b2.innerHTML = w1[Math.floor(getRandomArbitrary(0, w1.length))];
+                b2.innerHTML = w2[Math.floor(getRandomArbitrary(0, w2.length))];
             }
         }
         else {
-            b2.innerHTML = w1[Math.floor(getRandomArbitrary(0, w1.length))];
+            b2.innerHTML = w2[Math.floor(getRandomArbitrary(0, w2.length))];
         }
 		p2.style.width = ((time-80)/20)*100 + "%";
 	}
     if (los3)
 	{
-        b3.innerHTML = w2[Math.floor(getRandomArbitrary(0, w2.length))];
+        b3.innerHTML = w3[Math.floor(getRandomArbitrary(0, w3.length))];
 		p3.style.width = ((time-100)/20)*100 + "%";
 	}
     ryjceDiv.innerHTML = "temacik dla: <img height='100px' class='shadowed' src='img/" + ryjce[Math.floor(getRandomArbitrary(0, ryjce.length))] + ".png'/>";
