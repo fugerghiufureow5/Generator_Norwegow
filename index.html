@@ -1,4 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
 
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123909953-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-123909953-1');
+	</script>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>maszyna losujaca tv gry</title>
+	<meta name="description" content="legendarna maszyna losujaca teraz dostepna w przegladarce. wylosuj swoj temat, udostępnij go znajomym, redakcji TVGRY, wykorzystaj go jako temat na swoj filmik lub po prostu nic z nim nie rob (najlepiej).">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript,Klocuch,klo,cuch,tvgry,losu,losowanko,dzyn,maszyna,szef,hed,jordan,gierki,recenzje,gry,wideorecenzje,video,games,pc,tematy,filmiki">
+	<meta name="author" content="xar">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="site.webmanifest">
+	<link rel="apple-touch-icon" href="icon.png">
+	<link rel="icon" type="image/png" href="icon.png" sizes="16x16">  
+	<link rel="icon" type="image/png" href="icon.png" sizes="32x32">  
+	<link rel="icon" type="image/png" href="icon.png" sizes="96x96">  
+	<meta property="og:title" content="losulosu" />
+	<meta property="og:url" content="https://losulosu.pl/" />
+	<meta property="og:image" content="https://losulosu.pl/icon.png" />
+	<meta property="og:description" content="losowanko zapraszam dzyn dzyn dzyn" />
+	<meta name="theme-color" content="#A80000">
+	<meta name="msapplication-navbutton-color" content="#A80000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#A80000">
+    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+	<div class="row">
+			<div class="wrapper" id="machine">
+			<div id="screen">
+			<p class="header">losowanie</p>
+			<div class="row">
+			<div class="one-third column box"><div id="b1"></div></div>
+			<div class="one-third column box"><div id="b2"></div></div>
+			<div class="one-third column box"><div id="b3"></div></div>
+			<div class="row">
+			<p id="ryjce">temacik dla: <img height='100px' src='img/kto.png' class='shadowed'/></p>
+			</div>
+			<div class="row">
+			<button type="button" onclick="losu_start()">losuj</button>
+				</div>
+				<div class="row">
+				<div class="progressbar six columns" id="myProgress1">
+				  <div class="progressbar-content" id="p1"></div>
+				</div>
+				<div class="progressbar three columns" id="myProgress2">
+				  <div class="progressbar-content" id="p2"></div>
+				</div>
+				<div class="progressbar three columns" id="myProgress3">
+				  <div class="progressbar-content" id="p3"></div>
+				</div>
+			</div>
+			<p id="progress">
+			  czekanko - kliknij 'losuj' 
+			</p>
+			<div>
+				<button title="Podgląd" type="button" onclick="preview()" class="btn-foo"><i class="fas fa-search"></i></button>
+				<button title="Zapisz na dysku" type="button" onclick="download()" class="btn-foo"><i class="fa fa-download"></i></button>
+				<a href="https://discord.gg/r7Z6W86"><button title="Discord" type="button" onclick="" class="btn-foo"><i class="fab fa-discord"></i></button></a>
+				<button title="o stronie" type="button" onclick="info()" class="btn-foo"><i class="fas fa-info"></i></button>
+			</div>
+			<div class="volbox">
+				<i class="fas fa-volume-up"></i>
+				<input id="volume" type="range" min="0" max="1" value="1" step="0.05" oninput="setVolume(this.value)" onchange="setVolume(this.value)">
+			</div>
+			<p id="footer">to jest na zarty - inspirowane twórczością klocucha</p>
+			</div>
+			</div>
+		</div>
 		<div class="row">
 		<div class="one-half column">
 			<div class="wrapper">
